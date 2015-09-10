@@ -1,0 +1,18 @@
+ul#todos {
+	padding-left: 20px;
+}
+
+a#remove-completed-btn {
+	cursor: pointer;
+}
+
+	input#todo-title {
+		width: 74%;
+	}
+	button#add-btn {
+		width: 25%;
+	}
+
+	.form-control {
+		display: inline-block;
+	}

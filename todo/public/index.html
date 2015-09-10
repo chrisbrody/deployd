@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Todo Application</title>
+  <!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/todo.css">	
+</head>
+<body>
+	  
+	<div class="container">
+		<div class="col-sm-8 col-sm-offset-2">
+			<h1 class="text-center">Simple Todo Application</h1>
+			<p id="empty">You don't have any todos! Add one now:</p>
+			<ul id="todos" class="unstyled">
+			</ul>
+			<form class="form-inline">
+				<input id="todo-title" class="form-control" type="text">
+				<button id="add-btn" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Add</button>
+			</form>
+			<p>
+				<a id="remove-completed-btn">Remove completed items</a>
+			</p>
+		</div>
+	</div>
+
+	<!-- jQuery js -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- deployd -->
+  <script src="dpd.js"></script>
+  <!-- custom js -->
+	<script src="js/todo.js"></script>
+</body>
+</html>
